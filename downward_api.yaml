@@ -5,7 +5,7 @@ metadata:
 spec:
   containers:
     - name: downward-env-container
-      image: ghcr.io/siyoungbyun/downward_api:v1
+      image: ghcr.io/siyoungbyun/downward_api:v2
       env:
         - name: POD_NAME
           valueFrom:
